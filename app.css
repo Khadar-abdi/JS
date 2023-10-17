@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flexbox;
+    background: radial-gradient(#adadad, #2e2e2e) ;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather{
+    display: grid;
+    justify-items: center;
+    margin-top: 7rem;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(#294d61 ,#00aaa2 );
+    max-width: 300px;
+    height: auto;
+    padding: 2rem;
+    margin: 5rem;
+    border-radius: 2rem;
+    position: relative;
+    right: -30%;
+}
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.4rem;
+  
+     
+}
+.search>.InputSearch{
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: none;
+    width: 12rem;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+
+    
+}
+.search>.searchIcon{
+    font-family: 'quicksand',sans-serif;
+    font-weight: 200;
+    color: #000;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.3rem;
+    width: 2rem;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+ 
+#error{
+    font-size: 13px;
+    font-family: 'Prompt',sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    color: #fff;
+}
+.weatheData{
+    padding: 0.5rem;
+    
+    color: #fff;
+}
+.weatherIcon{
+    
+    width: 4rem;
+    height: 4rem;
+    color: #ffd900;
+}
+.degree{
+    padding: 2px;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+}
+.city{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.subData{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    align-items: center;
+}
+.humidtyicon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    font-size: 20px;
+    color: #fff;
+}
+.speedIcon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    font-size: 20px;
+    color: white;
+}
+.humidtyicon>h6{
+    font-size: 25px;
+}
+.speedIcon>.img{
+    font-size: 25px;
+    color: #fff;
+}
+.humidtyicon>p{
+    font-size: 20px;
+    font-family: 'quicksand',sans-serif;
+}
+.speedIcon>p{
+    font-size: 20px;
+    font-family: 'quicksand',sans-serif;
+}
+.humm,
+.wind{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+}
